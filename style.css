@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to bottom, #ffc0cb, #ff69b4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centered {
+    text-align: center;
+}
+
+.heart, .popup-heart {
+    font-size: 50px;
+    color: red;
+}
+
+p {
+    font-size: 18px;
+    color: #a52a2a;
+}
+
+.progress {
+    width: 300px;
+    height: 10px;
+    background-color: #f0f0f0;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: #ff69b4;
+    border-radius: 5px;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hidden {
+    display: none;
+}
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+button {
+    margin: 8px;
+    padding: 8px 20px;
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.love-felt{
+    margin-inline: 5rem !important;
+}
+.love-felt strong{
+    margin-top: 1rem !important;
+}
+button:hover {
+    background-color: #6a1bbd;
+}
